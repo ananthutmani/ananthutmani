@@ -5,6 +5,9 @@ table{
   margin-top: 20vh;
   margin-bottom: 20vh;
 } 
+#tableof{
+ border-radius: 0px 25px 25px 0px;   
+}
   #tableof .rbw:nth-child(1), .gold {
     background: gold;
     color: black;
@@ -19,4 +22,8 @@ table{
     background: #cd7f32;
     color: black;
   }
+  #slno{
+    border-radius: 25px 0px 0px 25px;
+  }
+  
   
