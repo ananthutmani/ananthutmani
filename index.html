@@ -4,126 +4,246 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/rset.css">
+    <script src="javscript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
-    <title>Own build MOC</title>
+
+    <title>RSET IEEE Student Branch</title>
   </head>
-  
   <body>
-      <section id="navbar">
-        <nav class="navbar navbar-expand-lg py-0 fixed-top" id="navbr">
-          <a class="navbar-brand" href="#">CANDY</a>
-          <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link" href="#">HOME</a>
-              <a class="nav-item nav-link" href="#">ABOUT</a>
-              <a class="nav-item nav-link" href="#">TICKETS</a>
-            </div>
-          </div>
-        </nav>
-      </section>
 
-      <section class="container-fluid px-0">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="text-align-center text-white d-none d-lg-block mt-5" id="hgrp">
-              <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-              <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-              <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-              <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-              <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-              <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-              <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            	<img class="img-fluid" src="imgs/hand2.png" alt="hand2">
-          </div>
-        </div>
+   <div id="loader">
+       <img src="css/Images/Preloader_3.gif" alt="X">
+   </div>
+   
 
-        <div class="row align-items-center content">
-          <div class="col-md-6 order-2 order-md-1">
-            <img class="img-fluid" src="imgs/milk.png" alt="">
-          </div>
-          <div class="col-md-6 order-1 order-md-2 text-center mb-5 mb-md-0">
-            <div class="row justify-content-center">
-              <div class="col-lg-10 blurb">
-                <h2>
-                  MUSEUM OF CANDY
-                </h2>
-               <img class="d-none d-lg-inline" src="imgs/lolli_icon.png" alt="">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae beatae, maiores deserunt in voluptatibus aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur repellat eveniet quidem voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam autem nam ex deserunt debitis eaque ratione! Nobis, quidem assumenda.</p>
-              </div>
+     <!-- heading -->
+        <section class="header" id="heading" style="">
+            <div class="row justify-content-center align-items-center">
+                <div class="container pt-3">
+                  <div class="animated fadeInUp delay-1s">
+                    <div class="row justify-content-center" id="som">
+                        
+                        <div class="col-4 col-lg-3">
+                            <img class="img-fluid mt-2 mt-lg-4" src="Logos/IEEE expanded.png" alt="IEEE">
+                        </div> 
+
+                        
+                        
+                        <div class="col-4 col-lg-3">
+                            <img class="img-fluid" src="Logos/SB logo white.png" alt="RSET IEEE SB">
+                        </div>
+                    </div>
+                  </div>
+                    <div class="animated fadeIn delay-2s">
+                        <div class="jumbotron bg-transparent mt-5 pt-5 mb-5">
+                            <h1>
+                                          #CodeUnknown!
+                            </h1>
+                        </div>     
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
+
+            <!-- box animate -->
+            <div class="animation-area">
+                <ul class="box-area">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <!-- end box animate -->
+        </section>
+
+     <!-- Navbar -->
+		<section id="navmain">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container">    
+                    <a class="navbar-brand" href="#"><img class="img-fluid mr-3" src="Logos/Main PNG.png" alt="RSET"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Guidelines">Guidelines</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Marking">Marking Criteria</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="LeaderBoard/leader_advanced.html">Leaderboard</a>
+                        </li>
+                        
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Login">Login</a>
+                       </li>
+                    </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <section id="About">
+            <div class="container wow animated fadeInUp" data-wow-duration="700ms">
+                <div class="row justify-content-start m-3">
+                    <div class="col-2 col-md-3 col-lg-4 p-0">
+                        <h2>
+                            About
+                       </h2>
+                    </div>
+                    <div>
+                        <p class="m-0 mt-3 m-md-4">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum aliquam molestiae illo minus dolorem ratione magnam laudantium repellendus, tenetur aliquid minima fugit aut? Reprehenderit veniam ullam neque ea assumenda eius!
+                         </p>
+                   </div>
+                </div>
+            </div>
+        </section>
         
-        <div class="row align-items-center content">
-          <div class="col-md-6 order-2">
-            <img class="img-fluid" src="imgs/gumball.png" alt="">
-          </div>
-          <div class="col-md-6 order-1 text-center mb-5 mb-md-0">
-            <div class="row justify-content-center">
-              <div class="col-lg-10 blurb">
-                <h2>
-                  MUSEUM OF CANDY
-                </h2>
-               <img class="d-none d-lg-inline" src="imgs/lolli_icon.png" alt="">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae beatae, maiores deserunt in voluptatibus aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur repellat eveniet quidem voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam autem nam ex deserunt debitis eaque ratione! Nobis, quidem assumenda.</p>
-              </div>
+        <section id="Guidelines">
+            <div class="container wow animated fadeInUp" data-wow-duration="700ms">
+                <div class="row justify-content-start m-3">
+                    <div class="col-2 col-md-3 col-lg-4 p-0">
+                        <h2>
+                            Guidelines
+                       </h2>
+                    </div>
+                    <div>
+                        <p class="m-0 mt-3 m-md-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, corporis, aut ipsam voluptates necessitatibus eos vero numquam, minus aliquid consequatur commodi provident quis? Quas iste ullam sed officiis dolores consequatur enim error nam mollitia magnam. Nulla mollitia quae suscipit dolorem aut nemo? Iusto, earum nostrum.    
+                        </p>
+                   </div>
+                </div>
             </div>
-          </div>
-        </div>
+        </section>
         
-        <div class="row align-items-center content">
-          <div class="col-md-6 order-2 order-md-1">
-            <img class="img-fluid" src="imgs/sprinkles.png" alt="">
-          </div>
-          <div class="col-md-6 order-1 order-md-2 text-center mb-5 mb-md-0">
-            <div class="row justify-content-center">
-              <div class="col-lg-10 blurb">
-                <h2>
-                  MUSEUM OF CANDY
-                </h2>
-               <img class="d-none d-lg-inline" src="imgs/lolli_icon.png" alt="">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae beatae, maiores deserunt in voluptatibus aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur repellat eveniet quidem voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam autem nam ex deserunt debitis eaque ratione! Nobis, quidem assumenda.</p>
-              </div>
+        <section id="Marking">
+            <div class="container wow animated fadeInUp" data-wow-duration="700ms">
+                <div class="row justify-content-start m-3">
+                    <div class="col-2 col-md-3 col-lg-4 p-0">
+                        <h2>
+                            Marking Criteria
+                       </h2>
+                    </div>
+                    <div>
+                        <p class="m-0 mt-3 m-md-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius cumque porro explicabo tenetur nisi praesentium dicta illum laboriosam ipsa, eveniet blanditiis illo asperiores dolorem, dolorum eum aliquid error! Unde.
+                         </p>
+                   </div>
+                </div>
             </div>
-          </div>
-        </div>
+        </section>
 
+        <section id="Leaderboard">
+            <div class="container wow animated fadeInUp" data-wow-duration="700ms">
+                <div class="row justify-content-start m-3">
+                    <div class="col-2 col-md-3 col-lg-4 p-0">
+                        <h2>
+                            Leaderboard
+                       </h2>
+                    </div>
+                    <div>
+                        <p class="m-0 mt-3 m-md-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius cumque porro explicabo tenetur nisi praesentium dicta illum laboriosam ipsa, eveniet blanditiis illo asperiores dolorem, dolorum eum aliquid error! Unde.
+                         </p>
+                   </div>
+                </div>
+            </div>
+        </section>
 
+        <section id="Contact">
+            <div class="container wow animated fadeInUp" data-wow-duration="700ms">
+                <div class="row justify-content-start m-3">
+                    <div class="col-2 col-md-3 col-lg-4 p-0">
+                        <h2>
+                            Contact us
+                       </h2>
+                    </div>
+                    <div>
+                        <p class="m-0 mt-3 m-md-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, provident dolor? Perferendis, quidem iste dolor provident aperiam suscipit alias totam asperiores hic autem vero quod, dolores qui, velit id dicta temporibus molestiae explicabo. Natus asperiores incidunt officia reiciendis nostrum fugiat quos provident minima soluta expedita dolorem doloribus praesentium veniam perferendis, aperiam nobis repudiandae adipisci. Molestiae earum fugiat provident quas ab?
+                         </p>
+                   </div>
+                </div>
+            </div>
+        </section>
 
-      </section>
-     
+        <section id="Login">
+            <div class="container wow animated fadeInUp" data-wow-duration="700ms">
+                <div class="row justify-content-start m-3">
+                    <div class="col-2 col-md-3 col-lg-4 p-0">
+                        <h2>
+                            Login:
+                       </h2>
+                    </div>
+                </div>
+                    <div class="row justify-content-start m-3">
+                    <div class="col-10 col-md-6">
+                        <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email address</label>
+                              <input type="email" class="form-control bg-transparent text-white" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="exampleemail@abc.xyz">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Password</label>
+                              <input type="password" class="form-control bg-transparent text-white" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label pb-2" for="exampleCheck1">Remember me</label>
+                            </div>
+                            <button type="submit" class="btn btn-info">Login</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Maps -->
 
+        <section  class="mt-5">
+           
+            <div class="container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1007337.3608497995!2d76.01497567969925!3d9.516412781144188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080ca6b98ae0f7%3A0xc81786bb40617774!2sRajagiri%20School%20of%20Engineering%20%26%20Technology!5e0!3m2!1sen!2sin!4v1586169669276!5m2!1sen!2sin" width="100%" height="300vh" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </section>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            var loader = document.getElementById("loader");
+            window.addEventListener("load", function(){
+                loader.style.height="100px";
+                loader.style.width="100px";
+                loader.style.borderRadius="50%";
+                loader.style.visibility="hidden";
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script>
-      $(function () {
-            $(document).scroll(function () {
-                var $nav = $("#navbr");
-                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-            });
-        });
-    
-    </script>
-    
+            }); 
+        </script>     
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <script>
+            new WOW().init();
+            </script>
   </body>
 </html>
