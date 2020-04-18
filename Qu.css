@@ -9,6 +9,7 @@ a{
     color: aliceblue;
     font-family: Comfortaa;
 }
+
 a:hover{
     color: plum;
 }
@@ -169,6 +170,8 @@ table{
 } 
 #tableof{
  border-radius: 0px 25px 25px 0px;   
+ height: 80vh;
+
 }
   #tableof .rbw:nth-child(1), .gold {
     background: rgba(255, 215, 0, 0.8);
@@ -186,5 +189,7 @@ table{
   }
   #slno{
     border-radius: 25px 0px 0px 25px;
+    height: 80vh;
+
   }
   
