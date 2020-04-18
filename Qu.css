@@ -171,17 +171,17 @@ table{
  border-radius: 0px 25px 25px 0px;   
 }
   #tableof .rbw:nth-child(1), .gold {
-    background: gold;
+    background: rgba(255, 215, 0, 0.8);
     color: black;
   }
   
   #tableof .rbw:nth-child(2), .silver {
-    background: #c0c0c0;
+    background: rgba(192, 192, 192, 0.8);
     color: black;
   }
   
   #tableof .rbw:nth-child(3), .bronze {
-    background: #cd7f32;
+    background: rgba(205, 127, 50, 0.8);
     color: black;
   }
   #slno{
