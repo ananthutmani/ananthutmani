@@ -24,7 +24,7 @@ a:hover{
 #header{
     
     height: 100vh;
-    width: auto;
+    width: 100%;
     background-image: url(cover3.jpg);
     background-attachment: fixed;
     background-position: center;
