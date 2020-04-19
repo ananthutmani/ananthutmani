@@ -16,8 +16,15 @@ body{
     -webkit-font-smoothing: antialiased;
     }
 
-.g-signin2{
-  border-radius: 25px;
+.abcRioButton{
+  border-radius: 10px;
+}
+.abcRioButtonLightBlue{
+  background-color: rgba(22, 25, 28, 0.4);
+  color: white;
+}
+.abcRioButtonContents{
+  font-family: Comfortaa;
 }
   
   #loader{
