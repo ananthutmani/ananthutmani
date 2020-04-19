@@ -1,9 +1,10 @@
 html{
     scroll-behavior: smooth;
+    background-color: black;
   }
 body{
     
-    background: rgb(74, 6, 130);
+    background: rgba(74, 6, 130,0.7);
 }
 a{
     color: aliceblue;
