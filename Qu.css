@@ -33,9 +33,9 @@ a:hover{
 
 
 
-#reglink{
+/* #reglink{
   margin-left: 55vh;
-}
+} */
 
 h1{
     padding-top: 30vh;
@@ -77,7 +77,7 @@ p{
 
 #reg{
   font-family: Comfortaa;
-  font-size: 3vh;
+  font-size: 2.5vh;
 }
 
 /*start box animation */
