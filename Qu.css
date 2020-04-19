@@ -1,10 +1,16 @@
 html{
     scroll-behavior: smooth;
-    background-color: black;
+    /* background-color: black; */
+    height: 100vh;
+    width: 100%;
+    background-image: url(cover3.jpg);
+    background-attachment: fixed;
+    background-position: center;
   }
 body{
     
-    background: rgba(74, 6, 130,0.7);
+    background: rgba(52, 4, 91, 0.7);
+    /* rgb(52, 4, 91) */
 }
 a{
     color: aliceblue;
