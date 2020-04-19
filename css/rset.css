@@ -16,6 +16,9 @@ body{
     -webkit-font-smoothing: antialiased;
     }
 
+.g-signin2{
+  border-radius: 25px;
+}
   
   #loader{
     height: 100%;
