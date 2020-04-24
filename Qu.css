@@ -18,6 +18,10 @@ a{
     font-family: Comfortaa;
 }
 
+.btn{
+font-size: 2.5vh;
+}
+
 a:hover{
     color: plum;
 }
@@ -70,6 +74,7 @@ p{
     font-size: 2.5vh;
     color: aliceblue;
 }
+
 .bluel{
   color: plum;
 }
@@ -175,9 +180,11 @@ p{
 table{
   margin-top: 7vh;
   margin-bottom: 20vh;
+  border-radius: 25px;
+  font-family: Comfortaa;
+  font-size: 2.3vh;
 } 
 #tableof{
- 
  height: 80vh;
 
 }
