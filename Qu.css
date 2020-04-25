@@ -19,7 +19,7 @@ a{
 }
 
 .btn{
-font-size: 2.5vh;
+font-size: 2.2vh;
 }
 
 a:hover{
@@ -177,6 +177,7 @@ p{
     font-size: 2.5vh;
     color: aliceblue;
 }
+/* start table */
 table{
   margin-top: 7vh;
   margin-bottom: 20vh;
