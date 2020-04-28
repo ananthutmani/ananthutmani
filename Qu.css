@@ -197,17 +197,17 @@ table{
  height: 80vh;
 
 }
-  #tableof .rbw:nth-child(1), .gold {
+  #tableof .rbw:nth-child(1){
     background: rgba(255, 215, 0, 0.8);
     color: black;
   }
   
-  #tableof .rbw:nth-child(2), .silver {
+  #tableof .rbw:nth-child(2){
     background: rgba(192, 192, 192, 0.8);
     color: black;
   }
   
-  #tableof .rbw:nth-child(3), .bronze {
+  #tableof .rbw:nth-child(3),  #tableof .rbw:nth-child(4){
     background: rgba(205, 127, 50, 0.8);
     color: black;
   }
