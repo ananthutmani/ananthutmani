@@ -90,11 +90,6 @@ p{
   width: 100%;
 }
 
-.table-dark{
-  color: #fff;
-  background-color: rgb(59, 4, 107);
-}
-
 #reg{
   font-family: Comfortaa;
   font-size: 2.5vh;
@@ -184,6 +179,7 @@ p{
     font-family: Comfortaa;
     font-size: 2.5vh;
     color: aliceblue;
+    
 }
 .end{
   padding-bottom: 20vh;
