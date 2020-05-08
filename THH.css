@@ -12,7 +12,11 @@ body{
     
     background: rgba(0, 0, 0, 0.7);
     counter-reset: Serial;
-    /* rgb(52, 4, 91) */
+}
+tr td:first-child:before
+{
+  counter-increment: Serial;      /* Increment the Serial counter */
+  content: counter(Serial); /* Display the counter */
 }
 a{
     color: lightgreen;
@@ -180,7 +184,4 @@ p{
     font-size: 2.5vh;
     color: aliceblue;
     
-}
-.end{
-  padding-bottom: 20vh;
 }
