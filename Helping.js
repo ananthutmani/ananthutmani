@@ -7,3 +7,8 @@ head1.addEventListener('animationend', function() {
   head2.classList.remove('d-none'); 
   head2.classList.add('animated', 'fadeInUp'); 
 });
+
+var navba = document.getElementById("navbar");
+      window.addEventListener("load", function(){
+          navba.classList.remove("d-none");
+      });
