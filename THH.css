@@ -1,6 +1,5 @@
 html{
     scroll-behavior: smooth;
-    /* background-color: black; */
     height: 100vh;
     width: 100%;
     background-image: url(images/three.jpg);
@@ -33,8 +32,8 @@ body{
 
 tr td:first-child:before
 {
-  counter-increment: Serial;      /* Increment the Serial counter */
-  content: counter(Serial); /* Display the counter */
+  counter-increment: Serial;
+  content: counter(Serial); 
 }
 a{
     color: lightgreen;
